@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" width="1440" height="1000">
+  <defs>
+    <style>
+      text { font-family: 'Inter', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1000" fill="#FFFFFF"/>
+
+  <!-- Page Header -->
+  <g transform="translate(80, 50)">
+    <text x="0" y="32" font-size="28" font-weight="800" fill="#111827">Practical 5: Fitness Tracking App UI Redesign (FitTrack 2.0)</text>
+    <text x="0" y="58" font-size="15" font-weight="500" fill="#4B5563">Before vs. After UI Redesign: Improving Simplicity, Clarity, and Motivation</text>
+    <text x="1280" y="32" font-size="15" font-weight="700" fill="#2563EB" text-anchor="end">Omkar Mote (4th Year)</text>
+    <line x1="0" y1="75" x2="1280" y2="75" stroke="#E5E7EB" stroke-width="2"/>
+  </g>
+
+  <!-- SIDE-BY-SIDE: BEFORE VS AFTER -->
+
+  <!-- LEFT: BEFORE (OLD CLUTTERED UI) (x: 80, y: 160, w: 450, h: 630) -->
+  <g transform="translate(80, 160)">
+    <rect x="0" y="0" width="450" height="630" rx="12" fill="#F9FAFB" stroke="#EF4444" stroke-width="2"/>
+    <text x="24" y="36" font-size="16" font-weight="800" fill="#DC2626">BEFORE: OLD CLUTTERED UI</text>
+    <text x="24" y="58" font-size="13" font-weight="500" fill="#6B7280">High cognitive overload, raw unreadable data</text>
+    <line x1="24" y1="70" x2="426" y2="70" stroke="#FCA5A5" stroke-width="1.5"/>
+
+    <!-- Raw Data Box -->
+    <g transform="translate(24, 90)">
+      <rect x="0" y="0" width="402" height="350" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+      <rect x="0" y="0" width="402" height="32" rx="8" fill="#4B5563"/>
+      <text x="16" y="21" font-size="12" font-weight="700" fill="#FFFFFF">FITNESS_TRACKER_V1 (RAW LOGS)</text>
+
+      <g transform="translate(16, 50)">
+        <text x="0" y="16" font-size="12" font-weight="700" fill="#6B7280">TIME</text>
+        <text x="130" y="16" font-size="12" font-weight="700" fill="#6B7280">HEART RATE</text>
+        <text x="260" y="16" font-size="12" font-weight="700" fill="#6B7280">CALORIES</text>
+
+        <line x1="0" y1="26" x2="370" y2="26" stroke="#E5E7EB" stroke-width="1"/>
+
+        <text x="0" y="52" font-size="12" font-weight="500" fill="#374151">08:00 AM</text>
+        <text x="130" y="52" font-size="12" font-weight="500" fill="#374151">124 bpm</text>
+        <text x="260" y="52" font-size="12" font-weight="500" fill="#374151">82 kcal</text>
+
+        <text x="0" y="85" font-size="12" font-weight="500" fill="#374151">09:15 AM</text>
+        <text x="130" y="85" font-size="12" font-weight="500" fill="#374151">110 bpm</text>
+        <text x="260" y="85" font-size="12" font-weight="500" fill="#374151">92 kcal</text>
+
+        <text x="0" y="118" font-size="12" font-weight="500" fill="#374151">10:30 AM</text>
+        <text x="130" y="118" font-size="12" font-weight="500" fill="#374151">78 bpm</text>
+        <text x="260" y="118" font-size="12" font-weight="500" fill="#374151">18 kcal</text>
+
+        <text x="0" y="151" font-size="12" font-weight="500" fill="#374151">11:45 AM</text>
+        <text x="130" y="151" font-size="12" font-weight="500" fill="#374151">134 bpm</text>
+        <text x="260" y="151" font-size="12" font-weight="500" fill="#374151">140 kcal</text>
+
+        <line x1="0" y1="180" x2="370" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+        <text x="0" y="205" font-size="13" font-weight="800" fill="#DC2626">TOTAL STEPS: 2,678 (NO GOAL DEFINED)</text>
+      </g>
+    </g>
+
+    <!-- Usability Problems Note -->
+    <g transform="translate(24, 465)">
+      <rect x="0" y="0" width="402" height="135" rx="8" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.5"/>
+      <text x="16" y="26" font-size="13" font-weight="800" fill="#991B1B">USABILITY PROBLEMS IDENTIFIED:</text>
+      <text x="16" y="52" font-size="13" font-weight="500" fill="#991B1B">1. Too much dense text without visual hierarchy.</text>
+      <text x="16" y="76" font-size="13" font-weight="500" fill="#991B1B">2. No visual charts or goal indicators.</text>
+      <text x="16" y="100" font-size="13" font-weight="500" fill="#991B1B">3. Zero gamification, motivation, or streaks.</text>
+      <text x="16" y="122" font-size="12" font-weight="700" fill="#DC2626">-> Result: Users get confused and stop using the app.</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: AFTER (NEW FITTRACK 2.0) (x: 560, y: 160, w: 800, h: 630) -->
+  <g transform="translate(560, 160)">
+    <rect x="0" y="0" width="800" height="630" rx="12" fill="#F9FAFB" stroke="#10B981" stroke-width="2"/>
+    <text x="28" y="36" font-size="16" font-weight="800" fill="#047857">AFTER: REDESIGNED FITTRACK 2.0</text>
+    <text x="28" y="58" font-size="13" font-weight="500" fill="#6B7280">Redesigned with Simplicity, Clarity, and Motivation</text>
+    <line x1="28" y1="70" x2="772" y2="70" stroke="#A7F3D0" stroke-width="1.5"/>
+
+    <!-- 3 REDESIGN PILLARS -->
+
+    <!-- PILLAR 1: SIMPLICITY (Activity Summary) -->
+    <g transform="translate(28, 90)">
+      <rect x="0" y="0" width="350" height="240" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+      <text x="16" y="26" font-size="13" font-weight="800" fill="#2563EB">PILLAR 1: SIMPLICITY (ACTIVITY RINGS)</text>
+      <line x1="16" y1="36" x2="334" y2="36" stroke="#E5E7EB" stroke-width="1"/>
+
+      <!-- Clean concentric rings -->
+      <g transform="translate(80, 135)">
+        <circle cx="0" cy="0" r="55" fill="none" stroke="#FEE2E2" stroke-width="8"/>
+        <circle cx="0" cy="0" r="55" fill="none" stroke="#EF4444" stroke-width="8" stroke-dasharray="260, 80"/>
+
+        <circle cx="0" cy="0" r="40" fill="none" stroke="#DCFCE7" stroke-width="8"/>
+        <circle cx="0" cy="0" r="40" fill="none" stroke="#10B981" stroke-width="8" stroke-dasharray="190, 80"/>
+
+        <circle cx="0" cy="0" r="25" fill="none" stroke="#DBEAFE" stroke-width="8"/>
+        <circle cx="0" cy="0" r="25" fill="none" stroke="#2563EB" stroke-width="8" stroke-dasharray="120, 80"/>
+      </g>
+
+      <!-- Legend -->
+      <g transform="translate(170, 75)">
+        <circle cx="6" cy="6" r="5" fill="#EF4444"/>
+        <text x="18" y="10" font-size="12" font-weight="700" fill="#111827">Move: 680 / 800 kcal</text>
+
+        <circle cx="6" cy="38" r="5" fill="#10B981"/>
+        <text x="18" y="42" font-size="12" font-weight="700" fill="#111827">Exercise: 42 / 45 min</text>
+
+        <circle cx="6" cy="70" r="5" fill="#2563EB"/>
+        <text x="18" y="74" font-size="12" font-weight="700" fill="#111827">Stand: 10 / 12 hrs</text>
+      </g>
+
+      <text x="16" y="215" font-size="12" font-weight="500" fill="#4B5563">Visual rings give instant status in 1 second.</text>
+    </g>
+
+    <!-- PILLAR 2: CLARITY (Weekly Calorie Chart) -->
+    <g transform="translate(400, 90)">
+      <rect x="0" y="0" width="372" height="240" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+      <text x="16" y="26" font-size="13" font-weight="800" fill="#10B981">PILLAR 2: CLARITY (WEEKLY TREND)</text>
+      <line x1="16" y1="36" x2="356" y2="36" stroke="#E5E7EB" stroke-width="1"/>
+
+      <text x="16" y="60" font-size="12" font-weight="600" fill="#6B7280">Weekly Calories (Target: 600 kcal/day)</text>
+
+      <!-- 7 Bars -->
+      <g transform="translate(20, 80)">
+        <rect x="15" y="30" width="24" height="60" rx="4" fill="#2563EB"/>
+        <text x="27" y="105" font-size="11" font-weight="700" fill="#6B7280" text-anchor="middle">M</text>
+
+        <rect x="60" y="40" width="24" height="50" rx="4" fill="#2563EB"/>
+        <text x="72" y="105" font-size="11" font-weight="700" fill="#6B7280" text-anchor="middle">T</text>
+
+        <rect x="105" y="20" width="24" height="70" rx="4" fill="#2563EB"/>
+        <text x="117" y="105" font-size="11" font-weight="700" fill="#6B7280" text-anchor="middle">W</text>
+
+        <rect x="150" y="45" width="24" height="45" rx="4" fill="#2563EB"/>
+        <text x="162" y="105" font-size="11" font-weight="700" fill="#6B7280" text-anchor="middle">T</text>
+
+        <rect x="195" y="15" width="24" height="75" rx="4" fill="#10B981"/>
+        <text x="207" y="105" font-size="11" font-weight="700" fill="#6B7280" text-anchor="middle">F</text>
+
+        <rect x="240" y="25" width="24" height="65" rx="4" fill="#10B981"/>
+        <text x="252" y="105" font-size="11" font-weight="700" fill="#6B7280" text-anchor="middle">S</text>
+
+        <rect x="285" y="65" width="24" height="25" rx="4" fill="#E5E7EB"/>
+        <text x="297" y="105" font-size="11" font-weight="700" fill="#6B7280" text-anchor="middle">S</text>
+      </g>
+
+      <text x="16" y="215" font-size="12" font-weight="600" fill="#10B981">+14% more active this week.</text>
+    </g>
+
+    <!-- PILLAR 3: MOTIVATION (Streaks & Badges) -->
+    <g transform="translate(28, 355)">
+      <rect x="0" y="0" width="744" height="245" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+      <text x="16" y="26" font-size="13" font-weight="800" fill="#8B5CF6">PILLAR 3: MOTIVATION &amp; REWARDS</text>
+      <line x1="16" y1="36" x2="728" y2="36" stroke="#E5E7EB" stroke-width="1"/>
+
+      <!-- Rank Banner -->
+      <g transform="translate(16, 50)">
+        <rect x="0" y="0" width="712" height="60" rx="8" fill="#8B5CF6"/>
+        <text x="20" y="26" font-size="12" font-weight="700" fill="#EDE9FE">CURRENT RANK</text>
+        <text x="20" y="48" font-size="18" font-weight="800" fill="#FFFFFF">Level 14 - Fitness Warrior</text>
+        
+        <text x="690" y="38" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="end">3,450 / 4,000 XP</text>
+      </g>
+
+      <!-- 3 Badges -->
+      <g transform="translate(16, 125)">
+        <!-- Badge 1 -->
+        <g transform="translate(0, 0)">
+          <rect x="0" y="0" width="225" height="95" rx="8" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1.5"/>
+          <text x="16" y="26" font-size="13" font-weight="800" fill="#B45309">Century Club</text>
+          <text x="16" y="46" font-size="12" font-weight="500" fill="#92400E">100 Workouts Completed</text>
+          <text x="16" y="75" font-size="12" font-weight="700" fill="#16A34A">+500 XP Awarded</text>
+        </g>
+
+        <!-- Badge 2 -->
+        <g transform="translate(243, 0)">
+          <rect x="0" y="0" width="225" height="95" rx="8" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5"/>
+          <text x="16" y="26" font-size="13" font-weight="800" fill="#166534">7-Day Streaker</text>
+          <text x="16" y="46" font-size="12" font-weight="500" fill="#14532D">Active 7 Days in a Row</text>
+          <text x="16" y="75" font-size="12" font-weight="700" fill="#16A34A">+300 XP Awarded</text>
+        </g>
+
+        <!-- Badge 3 -->
+        <g transform="translate(487, 0)">
+          <rect x="0" y="0" width="225" height="95" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+          <text x="16" y="26" font-size="13" font-weight="800" fill="#1E40AF">5K Runner</text>
+          <text x="16" y="46" font-size="12" font-weight="500" fill="#1E3A8A">Ran 5 km in single session</text>
+          <text x="16" y="75" font-size="12" font-weight="700" fill="#16A34A">+400 XP Awarded</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- BOTTOM COMPARISON TABLE -->
+  <g transform="translate(80, 810)">
+    <rect x="0" y="0" width="1280" height="145" rx="10" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="1.5"/>
+    <text x="24" y="26" font-size="13" font-weight="800" fill="#111827">SUMMARY OF USABILITY IMPROVEMENTS</text>
+    <line x1="24" y1="36" x2="1256" y2="36" stroke="#E5E7EB" stroke-width="1"/>
+
+    <text x="24" y="62" font-size="13" font-weight="700" fill="#2563EB">1. Simplicity:</text>
+    <text x="150" y="62" font-size="13" font-weight="500" fill="#374151">Replaced cluttered timestamps and text tables with 3 clean Activity Rings (Move, Exercise, Stand).</text>
+
+    <text x="24" y="92" font-size="13" font-weight="700" fill="#10B981">2. Clarity:</text>
+    <text x="150" y="92" font-size="13" font-weight="500" fill="#374151">Converted raw calorie logs into an easy-to-read weekly bar chart showing target goals (600 kcal/day).</text>
+
+    <text x="24" y="122" font-size="13" font-weight="700" fill="#8B5CF6">3. Motivation:</text>
+    <text x="150" y="122" font-size="13" font-weight="500" fill="#374151">Added daily streaks, XP levels, and milestone reward badges to keep users motivated.</text>
+  </g>
+</svg>

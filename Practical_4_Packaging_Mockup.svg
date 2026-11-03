@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" width="1440" height="1000">
+  <defs>
+    <style>
+      text { font-family: 'Inter', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1000" fill="#FFFFFF"/>
+
+  <!-- Page Header -->
+  <g transform="translate(80, 50)">
+    <text x="0" y="32" font-size="28" font-weight="800" fill="#111827">Practical 4: Product Packaging Mockup (AuraPod Earbuds)</text>
+    <text x="0" y="58" font-size="15" font-weight="500" fill="#4B5563">Packaging Design Views: 1. Front Retail Face | 2. Back Specifications | 3. Structural 2D Dieline Net</text>
+    <text x="1280" y="32" font-size="15" font-weight="700" fill="#2563EB" text-anchor="end">Omkar Mote (4th Year)</text>
+    <line x1="0" y1="75" x2="1280" y2="75" stroke="#E5E7EB" stroke-width="2"/>
+  </g>
+
+  <!-- TOP ROW: FRONT & BACK PACKAGING PANELS (w: 620 each) -->
+
+  <!-- PANEL 1: FRONT RETAIL FACE (x: 80, y: 160, w: 620, h: 420) -->
+  <g transform="translate(80, 160)">
+    <rect x="0" y="0" width="620" height="420" rx="10" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="2"/>
+    <text x="24" y="36" font-size="16" font-weight="800" fill="#111827">1. FRONT RETAIL PACKAGING BOX</text>
+    <line x1="24" y1="48" x2="596" y2="48" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- Front Box Visual -->
+    <g transform="translate(30, 75)">
+      <rect x="0" y="0" width="230" height="305" rx="12" fill="#1F2937"/>
+      
+      <!-- Brand Logo -->
+      <circle cx="35" cy="35" r="14" fill="#2563EB"/>
+      <text x="35" y="40" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">A</text>
+      <text x="60" y="36" font-size="15" font-weight="800" fill="#FFFFFF">AURAPOD</text>
+      <text x="60" y="50" font-size="10" font-weight="500" fill="#9CA3AF">Wireless Earbuds</text>
+
+      <!-- Minimal Product Graphic -->
+      <circle cx="115" cy="140" r="40" fill="none" stroke="#2563EB" stroke-width="3"/>
+      <rect x="85" y="120" width="60" height="40" rx="10" fill="#374151" stroke="#60A5FA" stroke-width="1.5"/>
+      <circle cx="115" cy="140" r="3" fill="#10B981"/>
+
+      <!-- Features at bottom -->
+      <g transform="translate(15, 250)">
+        <rect x="0" y="0" width="60" height="26" rx="4" fill="#374151"/>
+        <text x="30" y="17" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">ANC</text>
+
+        <rect x="70" y="0" width="60" height="26" rx="4" fill="#374151"/>
+        <text x="100" y="17" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">24h Play</text>
+
+        <rect x="140" y="0" width="60" height="26" rx="4" fill="#374151"/>
+        <text x="170" y="17" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">BT 5.3</text>
+      </g>
+    </g>
+
+    <!-- Notes beside box -->
+    <g transform="translate(290, 85)">
+      <text x="0" y="20" font-size="14" font-weight="800" fill="#111827">DESIGN FEATURES:</text>
+      <text x="0" y="50" font-size="13" font-weight="500" fill="#4B5563">- Minimalist dark theme for a premium look.</text>
+      <text x="0" y="75" font-size="13" font-weight="500" fill="#4B5563">- Clear brand logo at top-left.</text>
+      <text x="0" y="100" font-size="13" font-weight="500" fill="#4B5563">- Centered product visual for high focus.</text>
+      <text x="0" y="125" font-size="13" font-weight="500" fill="#4B5563">- 3 key feature highlight badges.</text>
+
+      <g transform="translate(0, 160)">
+        <rect x="0" y="0" width="295" height="110" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+        <text x="16" y="28" font-size="13" font-weight="700" fill="#2563EB">TARGET AUDIENCE:</text>
+        <text x="16" y="54" font-size="13" font-weight="500" fill="#374151">College students &amp; daily commuters</text>
+        <text x="16" y="76" font-size="13" font-weight="500" fill="#374151">who need affordable wireless earbuds with</text>
+        <text x="16" y="98" font-size="13" font-weight="500" fill="#374151">long battery life and noise cancellation.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- PANEL 2: BACK SPECIFICATIONS PANEL (x: 740, y: 160, w: 620, h: 420) -->
+  <g transform="translate(740, 160)">
+    <rect x="0" y="0" width="620" height="420" rx="10" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="2"/>
+    <text x="24" y="36" font-size="16" font-weight="800" fill="#111827">2. BACK SPECIFICATIONS &amp; BARCODE</text>
+    <line x1="24" y1="48" x2="596" y2="48" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- Specifications Table -->
+    <g transform="translate(28, 75)">
+      <text x="0" y="20" font-size="14" font-weight="800" fill="#111827">TECHNICAL SPECIFICATIONS</text>
+
+      <g transform="translate(0, 40)">
+        <text x="0" y="20" font-size="14" font-weight="600" fill="#6B7280">Driver Unit:</text>
+        <text x="140" y="20" font-size="14" font-weight="700" fill="#111827">10 mm Dynamic Driver</text>
+
+        <text x="0" y="50" font-size="14" font-weight="600" fill="#6B7280">Bluetooth:</text>
+        <text x="140" y="50" font-size="14" font-weight="700" fill="#111827">v5.3 (10m Range)</text>
+
+        <text x="0" y="80" font-size="14" font-weight="600" fill="#6B7280">Battery Life:</text>
+        <text x="140" y="80" font-size="14" font-weight="700" fill="#111827">24 Hours Total Playtime</text>
+
+        <text x="0" y="110" font-size="14" font-weight="600" fill="#6B7280">Charging:</text>
+        <text x="140" y="110" font-size="14" font-weight="700" fill="#111827">USB Type-C Fast Charge</text>
+      </g>
+
+      <!-- Box Contents -->
+      <g transform="translate(0, 185)">
+        <rect x="0" y="0" width="340" height="90" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+        <text x="16" y="26" font-size="12" font-weight="800" fill="#10B981">PACKAGE CONTENTS:</text>
+        <text x="16" y="50" font-size="13" font-weight="500" fill="#374151">1 Pair Earbuds | 1 Charging Case</text>
+        <text x="16" y="72" font-size="13" font-weight="500" fill="#374151">1 USB Type-C Cable | 1 User Manual</text>
+      </g>
+
+      <!-- Barcode Card -->
+      <g transform="translate(370, 45)">
+        <rect x="0" y="0" width="180" height="230" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+        <text x="90" y="28" font-size="11" font-weight="700" fill="#6B7280" text-anchor="middle">MODEL: AP-2026</text>
+
+        <!-- Simple Barcode Lines -->
+        <g transform="translate(30, 50)">
+          <line x1="0" y1="0" x2="0" y2="60" stroke="#111827" stroke-width="2"/>
+          <line x1="8" y1="0" x2="8" y2="60" stroke="#111827" stroke-width="3"/>
+          <line x1="16" y1="0" x2="16" y2="60" stroke="#111827" stroke-width="1"/>
+          <line x1="26" y1="0" x2="26" y2="60" stroke="#111827" stroke-width="4"/>
+          <line x1="38" y1="0" x2="38" y2="60" stroke="#111827" stroke-width="2"/>
+          <line x1="48" y1="0" x2="48" y2="60" stroke="#111827" stroke-width="1"/>
+          <line x1="56" y1="0" x2="56" y2="60" stroke="#111827" stroke-width="3"/>
+          <line x1="68" y1="0" x2="68" y2="60" stroke="#111827" stroke-width="2"/>
+          <line x1="78" y1="0" x2="78" y2="60" stroke="#111827" stroke-width="4"/>
+          <line x1="88" y1="0" x2="88" y2="60" stroke="#111827" stroke-width="1"/>
+          <line x1="98" y1="0" x2="98" y2="60" stroke="#111827" stroke-width="3"/>
+          <line x1="110" y1="0" x2="110" y2="60" stroke="#111827" stroke-width="2"/>
+        </g>
+        <text x="90" y="135" font-size="11" font-weight="700" fill="#111827" text-anchor="middle">8 901234 567890</text>
+
+        <rect x="25" y="165" width="130" height="32" rx="4" fill="#F3F4F6"/>
+        <text x="90" y="185" font-size="11" font-weight="700" fill="#4B5563" text-anchor="middle">CERTIFIED CE / RoHS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- BOTTOM ROW: STRUCTURAL DIELINE CROSS (x: 80, y: 610, w: 1280, h: 340) -->
+  <g transform="translate(80, 610)">
+    <rect x="0" y="0" width="1280" height="340" rx="10" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="2"/>
+    <text x="24" y="36" font-size="16" font-weight="800" fill="#111827">3. STRUCTURAL PACKAGING DIELINE (UNFOLDED 2D NET)</text>
+    <line x1="24" y1="48" x2="1256" y2="48" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- Flat Dieline Cross Shape -->
+    <g transform="translate(200, 75)">
+      <!-- Top Lid -->
+      <rect x="280" y="0" width="160" height="50" fill="#FFFBEB" stroke="#EF4444" stroke-width="2"/>
+      <text x="360" y="30" font-size="12" font-weight="700" fill="#B45309" text-anchor="middle">TOP LID</text>
+
+      <!-- Glue Tab -->
+      <polygon points="100,60 130,50 130,170 100,160" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.5"/>
+      <text x="115" y="115" font-size="10" font-weight="700" fill="#EF4444" text-anchor="middle">GLUE</text>
+
+      <!-- Left Side -->
+      <rect x="130" y="50" width="150" height="120" fill="#FFFFFF" stroke="#EF4444" stroke-width="2"/>
+      <text x="205" y="115" font-size="13" font-weight="700" fill="#4B5563" text-anchor="middle">LEFT SIDE</text>
+
+      <!-- Front Panel -->
+      <rect x="280" y="50" width="160" height="120" fill="#1F2937" stroke="#EF4444" stroke-width="2"/>
+      <text x="360" y="105" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">FRONT (HERO)</text>
+      <text x="360" y="125" font-size="11" font-weight="600" fill="#60A5FA" text-anchor="middle">AURAPOD</text>
+
+      <!-- Right Side -->
+      <rect x="440" y="50" width="150" height="120" fill="#FFFFFF" stroke="#EF4444" stroke-width="2"/>
+      <text x="515" y="115" font-size="13" font-weight="700" fill="#4B5563" text-anchor="middle">RIGHT SIDE</text>
+
+      <!-- Back Panel -->
+      <rect x="590" y="50" width="160" height="120" fill="#FFFFFF" stroke="#EF4444" stroke-width="2"/>
+      <text x="670" y="105" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">BACK PANEL</text>
+      <text x="670" y="125" font-size="11" font-weight="500" fill="#6B7280" text-anchor="middle">(Specs &amp; Barcode)</text>
+
+      <!-- Bottom Flap -->
+      <rect x="280" y="170" width="160" height="50" fill="#FFFBEB" stroke="#EF4444" stroke-width="2"/>
+      <text x="360" y="200" font-size="12" font-weight="700" fill="#B45309" text-anchor="middle">BOTTOM FLAP</text>
+
+      <!-- Fold Lines (Blue dashed) -->
+      <line x1="280" y1="50" x2="280" y2="170" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,4"/>
+      <line x1="440" y1="50" x2="440" y2="170" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,4"/>
+      <line x1="590" y1="50" x2="590" y2="170" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,4"/>
+      <line x1="280" y1="50" x2="440" y2="50" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,4"/>
+      <line x1="280" y1="170" x2="440" y2="170" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,4"/>
+    </g>
+
+    <!-- Guide Legend on right -->
+    <g transform="translate(1010, 95)">
+      <rect x="0" y="0" width="230" height="120" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+      <text x="16" y="26" font-size="12" font-weight="800" fill="#111827">DIELINE GUIDE:</text>
+
+      <line x1="16" y1="50" x2="46" y2="50" stroke="#EF4444" stroke-width="2"/>
+      <text x="56" y="54" font-size="12" font-weight="700" fill="#EF4444">Solid Red: Cut Line</text>
+
+      <line x1="16" y1="80" x2="46" y2="80" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,4"/>
+      <text x="56" y="84" font-size="12" font-weight="700" fill="#2563EB">Dashed Blue: Fold Line</text>
+
+      <text x="16" y="108" font-size="11" font-weight="500" fill="#6B7280">Flat layout before folding into 3D.</text>
+    </g>
+  </g>
+</svg>

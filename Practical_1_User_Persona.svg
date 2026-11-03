@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" width="1440" height="1000">
+  <defs>
+    <style>
+      text { font-family: 'Inter', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1000" fill="#FFFFFF"/>
+
+  <!-- Page Header -->
+  <g transform="translate(80, 50)">
+    <text x="0" y="32" font-size="28" font-weight="800" fill="#111827">Practical 1: User Persona Design</text>
+    <text x="0" y="58" font-size="15" font-weight="500" fill="#4B5563">System: Learnly Online Learning Platform | Student: Omkar Mote (4th Year Engineering)</text>
+    <line x1="0" y1="75" x2="1280" y2="75" stroke="#E5E7EB" stroke-width="2"/>
+  </g>
+
+  <!-- 3 Big Simple Columns -->
+  <!-- COLUMN 1: USER PROFILE -->
+  <g transform="translate(80, 160)">
+    <rect x="0" y="0" width="380" height="770" rx="12" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="2"/>
+    
+    <!-- Avatar Circle -->
+    <circle cx="190" cy="90" r="50" fill="#2563EB"/>
+    <text x="190" y="100" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">OM</text>
+
+    <!-- Name & Details -->
+    <text x="190" y="175" font-size="22" font-weight="800" fill="#111827" text-anchor="middle">Omkar Mote</text>
+    <text x="190" y="202" font-size="14" font-weight="600" fill="#2563EB" text-anchor="middle">College Student | 4th Year Engineering</text>
+
+    <line x1="30" y1="230" x2="350" y2="230" stroke="#E5E7EB" stroke-width="1.5"/>
+
+    <!-- Demographics List -->
+    <text x="30" y="260" font-size="14" font-weight="800" fill="#111827">DEMOGRAPHIC DETAILS</text>
+
+    <g transform="translate(30, 280)">
+      <text x="0" y="20" font-size="14" font-weight="600" fill="#6B7280">Age:</text>
+      <text x="120" y="20" font-size="14" font-weight="700" fill="#111827">21 Years</text>
+
+      <text x="0" y="55" font-size="14" font-weight="600" fill="#6B7280">Occupation:</text>
+      <text x="120" y="55" font-size="14" font-weight="700" fill="#111827">Engineering Student</text>
+
+      <text x="0" y="90" font-size="14" font-weight="600" fill="#6B7280">Education:</text>
+      <text x="120" y="90" font-size="14" font-weight="700" fill="#111827">4th Year (Computer Engg)</text>
+
+      <text x="0" y="125" font-size="14" font-weight="600" fill="#6B7280">Location:</text>
+      <text x="120" y="125" font-size="14" font-weight="700" fill="#111827">Pune, Maharashtra</text>
+
+      <text x="0" y="160" font-size="14" font-weight="600" fill="#6B7280">Tech Skills:</text>
+      <text x="120" y="160" font-size="14" font-weight="700" fill="#2563EB">Beginner in Python</text>
+
+      <text x="0" y="195" font-size="14" font-weight="600" fill="#6B7280">Personality:</text>
+      <text x="120" y="195" font-size="14" font-weight="700" fill="#111827">Curious, Motivated</text>
+    </g>
+
+    <line x1="30" y1="510" x2="350" y2="510" stroke="#E5E7EB" stroke-width="1.5"/>
+
+    <!-- Bio -->
+    <text x="30" y="540" font-size="14" font-weight="800" fill="#111827">USER BIO</text>
+    <text x="30" y="570" font-size="14" font-weight="500" fill="#374151">Omkar is a final-year engineering</text>
+    <text x="30" y="595" font-size="14" font-weight="500" fill="#374151">student preparing for campus placements.</text>
+    <text x="30" y="620" font-size="14" font-weight="500" fill="#374151">He wants to learn Python through an</text>
+    <text x="30" y="645" font-size="14" font-weight="500" fill="#374151">affordable online platform with practical</text>
+    <text x="30" y="670" font-size="14" font-weight="500" fill="#374151">coding exercises.</text>
+  </g>
+
+  <!-- COLUMN 2: GOALS & MOTIVATIONS -->
+  <g transform="translate(500, 160)">
+    <rect x="0" y="0" width="410" height="770" rx="12" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="2"/>
+    
+    <!-- Top Half: Goals -->
+    <g transform="translate(30, 30)">
+      <text x="0" y="20" font-size="18" font-weight="800" fill="#111827">Goals</text>
+      <line x1="0" y1="35" x2="350" y2="35" stroke="#E5E7EB" stroke-width="1.5"/>
+
+      <g transform="translate(0, 65)">
+        <circle cx="8" cy="8" r="5" fill="#2563EB"/>
+        <text x="25" y="13" font-size="15" font-weight="700" fill="#111827">Learn Python Programming</text>
+        <text x="25" y="34" font-size="13" font-weight="500" fill="#6B7280">Understand core coding concepts from scratch.</text>
+
+        <circle cx="8" cy="70" r="5" fill="#2563EB"/>
+        <text x="25" y="75" font-size="15" font-weight="700" fill="#111827">Improve Problem Solving</text>
+        <text x="25" y="96" font-size="13" font-weight="500" fill="#6B7280">Practice coding challenges and algorithms.</text>
+
+        <circle cx="8" cy="132" r="5" fill="#2563EB"/>
+        <text x="25" y="137" font-size="15" font-weight="700" fill="#111827">Complete Certified Courses</text>
+        <text x="25" y="158" font-size="13" font-weight="500" fill="#6B7280">Earn certificates to add to resume.</text>
+
+        <circle cx="8" cy="194" r="5" fill="#2563EB"/>
+        <text x="25" y="199" font-size="15" font-weight="700" fill="#111827">Secure a Software Internship</text>
+        <text x="25" y="220" font-size="13" font-weight="500" fill="#6B7280">Gain hands-on work experience before graduating.</text>
+      </g>
+    </g>
+
+    <line x1="30" y1="390" x2="380" y2="390" stroke="#E5E7EB" stroke-width="2"/>
+
+    <!-- Bottom Half: Motivations -->
+    <g transform="translate(30, 420)">
+      <text x="0" y="20" font-size="18" font-weight="800" fill="#111827">Motivations</text>
+      <line x1="0" y1="35" x2="350" y2="35" stroke="#E5E7EB" stroke-width="1.5"/>
+
+      <g transform="translate(0, 65)">
+        <circle cx="8" cy="8" r="5" fill="#10B981"/>
+        <text x="25" y="13" font-size="15" font-weight="700" fill="#111827">Career Growth</text>
+        <text x="25" y="34" font-size="13" font-weight="500" fill="#6B7280">Better job placement opportunities in tech.</text>
+
+        <circle cx="8" cy="70" r="5" fill="#10B981"/>
+        <text x="25" y="75" font-size="15" font-weight="700" fill="#111827">Practical Knowledge</text>
+        <text x="25" y="96" font-size="13" font-weight="500" fill="#6B7280">Build real projects instead of pure theory.</text>
+
+        <circle cx="8" cy="132" r="5" fill="#10B981"/>
+        <text x="25" y="137" font-size="15" font-weight="700" fill="#111827">Personal Achievement</text>
+        <text x="25" y="158" font-size="13" font-weight="500" fill="#6B7280">Build self-confidence in coding interviews.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- COLUMN 3: PAIN POINTS & EXPECTATIONS -->
+  <g transform="translate(950, 160)">
+    <rect x="0" y="0" width="410" height="770" rx="12" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="2"/>
+    
+    <!-- Top Half: Pain Points -->
+    <g transform="translate(30, 30)">
+      <text x="0" y="20" font-size="18" font-weight="800" fill="#111827">Pain Points &amp; Frustrations</text>
+      <line x1="0" y1="35" x2="350" y2="35" stroke="#E5E7EB" stroke-width="1.5"/>
+
+      <g transform="translate(0, 65)">
+        <circle cx="8" cy="8" r="5" fill="#EF4444"/>
+        <text x="25" y="13" font-size="15" font-weight="700" fill="#111827">Limited Study Time</text>
+        <text x="25" y="34" font-size="13" font-weight="500" fill="#6B7280">Busy college timetable and exam pressure.</text>
+
+        <circle cx="8" cy="70" r="5" fill="#EF4444"/>
+        <text x="25" y="75" font-size="15" font-weight="700" fill="#111827">Confusing Online Tutorials</text>
+        <text x="25" y="96" font-size="13" font-weight="500" fill="#6B7280">Too long, boring, or lacking clear structure.</text>
+
+        <circle cx="8" cy="132" r="5" fill="#EF4444"/>
+        <text x="25" y="137" font-size="15" font-weight="700" fill="#111827">Expensive Subscriptions</text>
+        <text x="25" y="158" font-size="13" font-weight="500" fill="#6B7280">Many popular courses are too costly for students.</text>
+
+        <circle cx="8" cy="194" r="5" fill="#EF4444"/>
+        <text x="25" y="199" font-size="15" font-weight="700" fill="#111827">Hard to Track Progress</text>
+        <text x="25" y="220" font-size="13" font-weight="500" fill="#6B7280">No clear indicators of how much course is left.</text>
+      </g>
+    </g>
+
+    <line x1="30" y1="390" x2="380" y2="390" stroke="#E5E7EB" stroke-width="2"/>
+
+    <!-- Bottom Half: User Expectations -->
+    <g transform="translate(30, 420)">
+      <text x="0" y="20" font-size="18" font-weight="800" fill="#111827">User Expectations from Learnly</text>
+      <line x1="0" y1="35" x2="350" y2="35" stroke="#E5E7EB" stroke-width="1.5"/>
+
+      <g transform="translate(0, 65)">
+        <circle cx="8" cy="8" r="5" fill="#3B82F6"/>
+        <text x="25" y="13" font-size="15" font-weight="700" fill="#111827">Clean &amp; Simple Interface</text>
+        <text x="25" y="34" font-size="13" font-weight="500" fill="#6B7280">Easy navigation without unnecessary clutter.</text>
+
+        <circle cx="8" cy="70" r="5" fill="#3B82F6"/>
+        <text x="25" y="75" font-size="15" font-weight="700" fill="#111827">Affordable Student Pricing</text>
+        <text x="25" y="96" font-size="13" font-weight="500" fill="#6B7280">Courses priced fairly for college students.</text>
+
+        <circle cx="8" cy="132" r="5" fill="#3B82F6"/>
+        <text x="25" y="137" font-size="15" font-weight="700" fill="#111827">Short Modular Lessons</text>
+        <text x="25" y="158" font-size="13" font-weight="500" fill="#6B7280">10-minute video lectures that fit daily schedules.</text>
+
+        <circle cx="8" cy="194" r="5" fill="#3B82F6"/>
+        <text x="25" y="199" font-size="15" font-weight="700" fill="#111827">Practical Coding &amp; Quizzes</text>
+        <text x="25" y="220" font-size="13" font-weight="500" fill="#6B7280">Quick tests after each video to check concepts.</text>
+      </g>
+    </g>
+  </g>
+</svg>
