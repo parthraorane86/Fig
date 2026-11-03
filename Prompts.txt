@@ -1,0 +1,210 @@
+1 : 
+
+Design a clean, beginner-friendly UX persona board for a college UI/UX assignment about an online learning platform. Create ONE frame only (1440 × 1000 px), not a website or multiple screens.
+
+PERSONA
+Name: Parth Rajan Raorane
+Age: 21
+Role: AI & Data Science Engineering Student
+College: Genba Sopanrao Moze College of Engineering
+University: Savitribai Phule Pune University
+Location: Maharashtra, India
+Tech skill: High
+
+About: An AI & Data Science student who uses online learning platforms to learn programming, AI/ML and data science. Prefers practical, focused lessons and quick progress tracking.
+Quote: “I want to learn useful technical skills without wasting time.”
+
+LAYOUT
+Create a two-column layout:
+LEFT (32%): Circular student avatar, name, role, and compact profile facts.
+RIGHT (68%): An About Me card at the top, followed by four cards in a 2×2 grid titled Goals, Pain Points, Needs, and Motivations.
+
+Goals: Learn AI/ML and data science; complete useful courses; build projects; prepare for a career.
+Pain Points: Long lectures; confusing navigation; too much content; limited study time.
+Needs: Simple interface; short videos; course search and filters; clear progress tracking; practical examples.
+Motivations: Career growth; better job opportunities; industry-relevant skills; strong project portfolio.
+
+STYLE
+Use a white or light background, navy text, blue/purple accents, soft pastel card fills, rounded rectangles, subtle shadows, simple line icons, consistent spacing, and readable Inter-style typography.
+
+Keep the design neat, balanced, and suitable for a college assignment. Use short bullet points and basic shapes so a beginner can recreate it easily in Figma. Keep text editable. Avoid complex illustrations, 3D elements, heavy gradients, excessive decoration, and unnecessary content.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2 :
+Create 4 simple low-fidelity desktop wireframes for an Online Learning Platform. Put all 4 frames on one Figma page. Use grayscale only, basic rectangles, lines, text labels, and placeholder boxes. No polished UI, gradients, shadows, or decorative graphics. Keep all text editable.
+
+FRAME 1: HOME
+Add a top navigation bar with LearnHub logo, Home, Courses, My Learning and Profile. Add a welcome heading, search bar, and 3 featured course cards with image placeholders and course titles.
+
+FRAME 2: COURSE LISTING
+Add a page heading, search field, category filters, and 3 vertically arranged course cards. Each card should show an image placeholder, course title, instructor, duration, and Enroll button.
+
+FRAME 3: COURSE DETAIL AND LEARNING
+Show a course title, instructor and lesson list. Include a large video player placeholder with play button, lesson title, progress bar, and Next Lesson button. Add a small quiz section with one sample question, 3 answer options, and Submit button.
+
+FRAME 4: USER PROFILE AND PROGRESS
+Show a student avatar placeholder, name Parth, enrolled courses, completed courses, progress bars, and a simple weekly learning progress summary.
+
+DESIGN RULES
+Use simple desktop frames, consistent spacing, clear alignment, thin borders, and readable labels. Make the structure look like hand-drawn planning translated into digital wireframes. Prioritize layout and functionality over appearance. Keep everything beginner-friendly and easy to recreate manually in Figma. Generate exactly 4 frames, not 4 sections inside one frame.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3 : 
+Create 4 simple low-fidelity mobile wireframes for a Social Fitness App. Put all 4 phone frames side by side on one Figma page. Use grayscale, basic shapes, thin borders, placeholder boxes and editable text. Focus on layout, not visual styling.
+
+FRAME 1: HOME
+Create a top bar with app name FitConnect and a profile icon. Show “Welcome, Parth!”, today's activity summary with steps, calories and workout time. Add a Start Workout button and a small friends' activity feed.
+
+FRAME 2: WORKOUT TRACKER
+Show the heading “My Workout”. Include exercise name, duration, sets, reps and calories fields. Add a list of 3 sample exercises and buttons labelled “Add Exercise” and “Save Workout”. Include a small workout history section.
+
+FRAME 3: FITNESS GOALS
+Show the heading “My Goals”. Add 3 goal cards: Daily Steps, Weekly Workouts and Calories Burned. Each card should have a target, current progress and a simple progress bar. Add a “Set New Goal” button.
+
+FRAME 4: SOCIAL
+Show the heading “Friends & Challenges”. Include 3 friend entries with avatar placeholders, names and workout summaries. Add buttons labelled “Connect” and “Join Challenge”. Include a simple “Share Workout” card showing a completed workout and its duration.
+
+DESIGN RULES
+Use mobile frames approximately 390 × 844 px. Keep layouts simple, aligned and readable. Use rectangles for cards, circles for avatars, lines for dividers and bars for progress. Avoid colors, gradients, shadows, complex graphics and unnecessary decoration. Generate exactly 4 separate mobile wireframe frames, not one combined screen. Make the result easy for a beginner to recreate in Figma.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4 : Bittu Fitness
+
+
+Create a simple packaging design board for a fitness brand called “Bittu Fitness”. Design a cardboard box for a 5 kg dumbbell. Put all 5 views on one Figma page. Keep text and shapes editable.
+
+BRAND
+Name: Bittu Fitness
+Product: Fitness Dumbbell
+Weight: 5 KG
+Tagline: “Strength Starts Here”
+
+STYLE
+Use black, white and orange colors. Create a bold, sporty and clean design that is easy for a beginner to recreate with basic Figma shapes.
+
+CREATE EXACTLY 5 FLAT VIEWS:
+
+1. FRONT VIEW: Show the Bittu Fitness logo, large “FITNESS DUMBBELL” text, a simple dumbbell illustration, “5 KG” and the tagline.
+
+2. BACK VIEW: Include a short product description, three features (Durable Design, Comfortable Grip, Strength Training), basic usage instructions and a barcode placeholder.
+
+3. LEFT SIDE VIEW: Create a narrow rectangular panel with the Bittu Fitness brand name, a small dumbbell icon and “5 KG”.
+
+4. TOP VIEW: Create a simple rectangular top panel with the Bittu Fitness logo, a small dumbbell icon and the product name.
+
+5. RIGHT SIDE VIEW: Create a narrow rectangular panel showing “FITNESS DUMBBELL”, “5 KG” and a small orange graphic.
+
+LAYOUT
+Arrange all 5 views neatly on one board. Put the front and back views first, followed by the left side, top and right side views. Add a clear label above each panel.
+
+IMPORTANT RULES
+All views must be flat, straight-on 2D panels. Do not create angled boxes, perspective views, 3D mockups or isometric illustrations. Keep the branding consistent across all panels. Use basic rectangles, lines, text and simple vector graphics. Maintain clear spacing, alignment and readable typography. Avoid complex details and unnecessary decoration. Make it suitable for a basic college graphic design assignment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5 
+Redesign a fitness tracking app UI for a college UI/UX assignment. Create exactly 4 separate mobile screen frames on one Figma page. Use editable text, shapes and simple icons.
+
+STYLE: Clean, modern and beginner-friendly. Use a white background, dark text and green accents. Use rounded cards, readable typography, simple charts and consistent spacing. Focus on simplicity, clarity and motivation.
+
+SCREEN 1 — DASHBOARD
+Show app name FitTrack, greeting “Welcome, Parth!”, daily steps, calories burned, active minutes, a daily goal progress ring, a “Start Workout” button and a small weekly activity summary.
+
+SCREEN 2 — WORKOUT TRACKER
+Show heading “My Workout”, 3 sample exercises with sets and reps, workout duration, an “Add Exercise” button and a “Save Workout” button.
+
+SCREEN 3 — PROGRESS AND GOALS
+Show weekly activity as a simple bar chart, steps and calories summaries, a weekly workout goal with a progress bar, and a small achievement badge.
+
+SCREEN 4 — ACHIEVEMENTS
+Show fitness badges, current workout streak, completed goals and a small friends' activity feed with a “Share Progress” button.
+
+DESIGN RULES
+Use mobile frames approximately 390 × 844 px. Keep each screen separate, aligned and easy to understand. Use simple UI components rather than complex illustrations. Make progress visualizations clear and motivating. Avoid unnecessary decorations, heavy gradients and clutter. This is a simple UI redesign, not a grayscale wireframe. Generate exactly 4 frames.
